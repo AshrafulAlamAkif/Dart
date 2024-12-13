@@ -12,7 +12,8 @@ void main(){
 
   //set
   Set Myset = {
-    2,3,5,8,4,7
+    2,3,5,8,4,7,'akif',
+    'ashraful'
   };
 
 print(Myset);

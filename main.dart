@@ -1,21 +1,15 @@
 void main(){
   // list
   List number = [2,3,5,8,9];
-  print(number[3]);
+  int listLength = number.length;
 
-  // map
-  Map<String,dynamic> MyMap = {
-    'name': "akif",
-    'age': 6,
-  };
-  print(MyMap);
+  print("there number 3 index of the list is ${number[3]}");
+  print(number.length);
+  print("The length of the list is ${number.length}");
+  print("The length of the list is $listLength");
 
-  //set
-  Set Myset = {
-    2,3,5,8,4,7,'akif',
-    'ashraful'
-  };
 
-print(Myset);
+  
+
 
 }

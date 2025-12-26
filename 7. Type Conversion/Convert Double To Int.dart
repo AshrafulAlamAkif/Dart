@@ -10,5 +10,6 @@ void main(){
   print("Type of c is: ${c.runtimeType}");
   print("The double value after conversion is: $c");
   print("Rounded value of c is: ${c.toStringAsFixed(2)}");
+  print("round value of c is: ${c.round()}");
 
 }

@@ -1,7 +1,7 @@
 /*
-এইখানে আমরা constructor এর parameter গুলা কে different name দিয়েছি, 
-আর class এর variable গুলা কে different name দিয়েছি, 
-তাই এখানে this keyword এর দরকার পড়েনি, কারণ এখানে কোন confusion নেই যে কোনটা class এর variable
+এইখানে আমরা constructor এর parameter গুলা কে different name(StudentName) দিয়েছি, 
+আর class এর variable(name) গুলা কে different name দিয়েছি, 
+তাই এখানে this keyword এর দরকার পড়েনি, কারণ এখানে কোন confusion নেই যে কোনটা class এর variable
 */
 
 class Student{
@@ -12,7 +12,7 @@ class Student{
     //Constructor
     Student(String StudentName, int StudentAge, int Studentroll){
         print("Constructor called");
-        name = StudentName; //এই name টা class এর variable, আর StudentName টা parameter
+        name = StudentName;
         age = StudentAge;
         rollNumber = Studentroll;
     }

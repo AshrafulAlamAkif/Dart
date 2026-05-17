@@ -15,6 +15,10 @@ class Teacher{
     }
 }
 void main(){
+  //Object created and constructor called
     Teacher info = Teacher("Akif", 27, "Computer", 200);
     info.showInfo();
+    //Another object created
+    Teacher info2 = Teacher("John", 30, "Math", 300);
+    info2.showInfo();
 }
